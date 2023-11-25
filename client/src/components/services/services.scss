@@ -134,6 +134,8 @@
       }
 
       p {
+        font-size: 14px;
+
         @include mobile {
           display: none;
         }

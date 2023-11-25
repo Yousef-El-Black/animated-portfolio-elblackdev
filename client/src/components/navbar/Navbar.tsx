@@ -17,16 +17,16 @@ const Navbar = () => {
           EL BLACK DEV
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a href="https://www.facebook.com/elblackdev">
             <img src="./assets/images/facebook.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/yousefaboalata/">
             <img src="./assets/images/instagram.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/channel/UC--AEvpLAg5vd6Q_UKTMF-Q">
             <img src="./assets/images/youtube.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://dribbble.com/elblackdev">
             <img src="./assets/images/dribbble.png" alt="" />
           </a>
         </div>

@@ -59,12 +59,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Performance</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
-            debitis corporis similique temporibus quos voluptatibus nesciunt
-            quis cupiditate modi excepturi adipisci eligendi veniam repellat,
-            laborum repellendus reprehenderit ut accusantium?
+            I've excelled in building scalable applications with proficiency in
+            MongoDB, Express.js, React, and Node.js. My track record showcases
+            timely project completion, high-quality code, adept problem-solving,
+            and a commitment to continuous learning, ensuring adaptability and
+            growth in a rapidly evolving tech landscape. I provide Smallest file
+            possible, and It works on all types of browsers.
           </p>
           <button>Go</button>
         </motion.div>
@@ -72,12 +74,13 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Coding</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
-            debitis corporis similique temporibus quos voluptatibus nesciunt
-            quis cupiditate modi excepturi adipisci eligendi veniam repellat,
-            laborum repellendus reprehenderit ut accusantium?
+            In coding, my strength lies in crafting robust, scalable
+            applications using the MERN Stack—leveraging MongoDB, Express.js,
+            React, and Node.js. I ensure high-quality code, prompt issue
+            resolution, and a commitment to ongoing learning, fostering
+            adaptability in a dynamic coding landscape.
           </p>
           <button>Go</button>
         </motion.div>
@@ -85,12 +88,14 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Delivary</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
-            debitis corporis similique temporibus quos voluptatibus nesciunt
-            quis cupiditate modi excepturi adipisci eligendi veniam repellat,
-            laborum repellendus reprehenderit ut accusantium?
+            I excel by leveraging my expertise in the MERN Stack—utilizing
+            MongoDB, Express.js, React, and Node.js—to consistently produce
+            robust, scalable applications. My track record showcases on-time
+            project completion, high-quality code, rapid issue resolution, and a
+            dedication to continual learning, ensuring adaptable solutions in a
+            dynamic delivery environment.
           </p>
           <button>Go</button>
         </motion.div>
@@ -98,12 +103,13 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Skilling</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
-            debitis corporis similique temporibus quos voluptatibus nesciunt
-            quis cupiditate modi excepturi adipisci eligendi veniam repellat,
-            laborum repellendus reprehenderit ut accusantium?
+            I've honed expertise across the MERN Stack—embracing MongoDB,
+            Express.js, React, and Node.js—to construct adaptable, scalable
+            applications. My focus on continual learning ensures I swiftly
+            tackle challenges, produce high-quality code, and evolve adeptly,
+            staying at the forefront of tech advancements in skill development.
           </p>
           <button>Go</button>
         </motion.div>

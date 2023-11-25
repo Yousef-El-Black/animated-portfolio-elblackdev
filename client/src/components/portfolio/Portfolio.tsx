@@ -27,6 +27,20 @@ const items = [
     img: "https://images.pexels.com/photos/18822188/pexels-photo-18822188/free-photo-of-heron-by-the-sea.jpeg",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem quo aperiam porro beatae, voluptatibus repellendus ipsum qui unde sapiente provident officiis vel maiores, delectus praesentium ad recusandae aliquam animi?",
   },
+  {
+    id: 5,
+    title: "React Countries API",
+    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg",
+    desc: "Explore our website's Countries API, an extensive resource providing comprehensive data on nations worldwide. Access detailed information on demographics, geography, government, and more. Seamlessly integrate this API into your projects for enriched functionalities, enabling you to retrieve accurate and up-to-date details about any country effortlessly.",
+    link: "https://rest-countries-api-three-rho.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Advice Generator App",
+    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/l0nkljeqewyxuw0vedhd.jpg",
+    desc: "Welcome to our Advice Generator app—an innovative tool designed to offer insightful guidance for every situation. Whether seeking wisdom for personal growth, professional decisions, or daily challenges, this app provides tailored advice to inspire and assist you. With a diverse database of thoughtful suggestions, it's your go-to companion for valuable counsel, ensuring clarity and direction in every aspect of life.",
+    link: "https://advice-genereter.vercel.app/",
+  },
 ];
 
 type PorjectType = {
@@ -34,6 +48,7 @@ type PorjectType = {
   title: string;
   img: string;
   desc: string;
+  link?: string;
 };
 
 const Single = ({ item }: any) => {
@@ -54,7 +69,9 @@ const Single = ({ item }: any) => {
         <motion.div className="textContainer" style={{ y: yText }}>
           <h2>{item.title}</h2>
           <p>{item.desc}</p>
-          <button>See Demo</button>
+          <a href={item.link ? item.link : "#"}>
+            <button>See Demo</button>
+          </a>
         </motion.div>
       </div>
     </section>
