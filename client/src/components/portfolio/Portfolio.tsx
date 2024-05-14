@@ -5,41 +5,31 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
-    title: "React E-Commerce",
-    img: "https://images.pexels.com/photos/9210844/pexels-photo-9210844.jpeg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem quo aperiam porro beatae, voluptatibus repellendus ipsum qui unde sapiente provident officiis vel maiores, delectus praesentium ad recusandae aliquam animi?",
-  },
-  {
-    id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/19011373/pexels-photo-19011373/free-photo-of-building-in-a-mountain-valley-covered-with-snow.jpeg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem quo aperiam porro beatae, voluptatibus repellendus ipsum qui unde sapiente provident officiis vel maiores, delectus praesentium ad recusandae aliquam animi?",
-  },
-  {
-    id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/17850755/pexels-photo-17850755/free-photo-of-view-of-the-canal-between-traditional-buildings-in-venice-italy.jpeg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem quo aperiam porro beatae, voluptatibus repellendus ipsum qui unde sapiente provident officiis vel maiores, delectus praesentium ad recusandae aliquam animi?",
-  },
-  {
-    id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18822188/pexels-photo-18822188/free-photo-of-heron-by-the-sea.jpeg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem quo aperiam porro beatae, voluptatibus repellendus ipsum qui unde sapiente provident officiis vel maiores, delectus praesentium ad recusandae aliquam animi?",
-  },
-  {
-    id: 5,
     title: "React Countries API",
     img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg",
     desc: "Explore our website's Countries API, an extensive resource providing comprehensive data on nations worldwide. Access detailed information on demographics, geography, government, and more. Seamlessly integrate this API into your projects for enriched functionalities, enabling you to retrieve accurate and up-to-date details about any country effortlessly.",
     link: "https://rest-countries-api-three-rho.vercel.app/",
   },
   {
-    id: 6,
+    id: 2,
     title: "Advice Generator App",
     img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/l0nkljeqewyxuw0vedhd.jpg",
     desc: "Welcome to our Advice Generator app—an innovative tool designed to offer insightful guidance for every situation. Whether seeking wisdom for personal growth, professional decisions, or daily challenges, this app provides tailored advice to inspire and assist you. With a diverse database of thoughtful suggestions, it's your go-to companion for valuable counsel, ensuring clarity and direction in every aspect of life.",
     link: "https://advice-genereter.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "El-Black Clothing Store",
+    img: "/assets/images/el-black-clothing-store.png",
+    desc: "Welcome to El-Black, your go-to destination for fashion-forward individuals seeking the latest trends and timeless classics. With a curated selection of clothing, accessories, and footwear from both established brands and emerging designers, El-Black offers something for everyone. We believe in empowering individuals to express themselves through their clothing choices and celebrate diversity and personal style. Join our community of fashion enthusiasts and trendsetters as we redefine the fashion landscape, one stylish look at a time. Welcome to the world of El-Black, where fashion meets individuality, and style knows no bounds.",
+    link: "https://elblack-clothing-store.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Fratun ",
+    img: "/assets/images/fratun.png",
+    desc: "Welcome to Fratun, the future of social interactions! Fratun revolutionizes the way you connect with the world, making it fast, fluid, and fun. It's not just another social media platform; it's a community designed for crypto lovers that rewards you for engaging. Dive into discussions, share your insights, and connect with like-minded individuals while earning rewards for your participation. Fratun is where social networking meets cryptocurrency, offering a unique and rewarding experience for users who are passionate about both. Join us in shaping the future of social interaction and be part of a community where engagement pays off. Welcome to Fratun – where connecting and earning go hand in hand.",
+    link: "https://fratun-client-side-qg3o2x750-yousef-el-black.vercel.app/",
   },
 ];
 

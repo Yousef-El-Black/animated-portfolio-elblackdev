@@ -52,15 +52,15 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>YOUSEF ABOALATA</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and Radiologist
+            Full-Stack Web Engineer
           </motion.h1>
           <motion.div variants={textVariants} className="btns">
-            <motion.button variants={textVariants}>
-              <a href="#Portfolio">See the Latest Works</a>
-            </motion.button>
-            <motion.button variants={textVariants}>
-              <a href="#Contact">Contact Me</a>
-            </motion.button>
+            <motion.a variants={textVariants} href="#Portfolio">
+              <span>See the Latest Works</span>
+            </motion.a>
+            <motion.a variants={textVariants} href="#Contact">
+              <span>Contact Me</span>
+            </motion.a>
           </motion.div>
           <motion.img
             src="./assets/images/scroll.png"
