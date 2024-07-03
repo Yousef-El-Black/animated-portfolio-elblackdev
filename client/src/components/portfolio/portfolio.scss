@@ -94,6 +94,8 @@
         color: white;
         transition: 0.3s;
         cursor: pointer;
+        position: relative;
+        z-index: 999;
 
         &:hover {
           background-color: transparent;

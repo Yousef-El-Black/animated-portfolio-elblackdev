@@ -2,34 +2,62 @@ import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
 
+// {
+//   id: 1,
+//   title: "React Countries API",
+//   img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg",
+//   desc: "Explore our website's Countries API, an extensive resource providing comprehensive data on nations worldwide. Access detailed information on demographics, geography, government, and more. Seamlessly integrate this API into your projects for enriched functionalities, enabling you to retrieve accurate and up-to-date details about any country effortlessly.",
+//   link: "https://rest-countries-api-three-rho.vercel.app/",
+// },
 const items = [
   {
     id: 1,
-    title: "React Countries API",
-    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/wirxeocmd6tpnn9c5oqc.jpg",
-    desc: "Explore our website's Countries API, an extensive resource providing comprehensive data on nations worldwide. Access detailed information on demographics, geography, government, and more. Seamlessly integrate this API into your projects for enriched functionalities, enabling you to retrieve accurate and up-to-date details about any country effortlessly.",
-    link: "https://rest-countries-api-three-rho.vercel.app/",
+    title: "Room Homepage",
+    img: "/assets/gallery/desktop-preview (21).jpg",
+    desc: "Welcome to Room Website, your go-to platform for finding the perfect room to rent! Whether you're a student, a young professional, or just looking for a new place to call home, RoomFinder connects you with verified listings and trusted landlords. Easily search by location, budget, and amenities to find your ideal living space. Join our community today and discover your next home!",
+    link: "https://room-homepage-master-one-pi.vercel.app/",
   },
   {
     id: 2,
-    title: "Advice Generator App",
-    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/l0nkljeqewyxuw0vedhd.jpg",
-    desc: "Welcome to our Advice Generator app—an innovative tool designed to offer insightful guidance for every situation. Whether seeking wisdom for personal growth, professional decisions, or daily challenges, this app provides tailored advice to inspire and assist you. With a diverse database of thoughtful suggestions, it's your go-to companion for valuable counsel, ensuring clarity and direction in every aspect of life.",
-    link: "https://advice-genereter.vercel.app/",
+    title: "Insure Landing Page",
+    img: "/assets/gallery/desktop-preview (22).jpg",
+    desc: "Humanizing your insurance. Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.",
+    link: "https://insure-landing-page-gules-nine.vercel.app/",
   },
   {
     id: 3,
-    title: "El-Black Clothing Store",
-    img: "/assets/images/el-black-clothing-store.png",
-    desc: "Welcome to El-Black, your go-to destination for fashion-forward individuals seeking the latest trends and timeless classics. With a curated selection of clothing, accessories, and footwear from both established brands and emerging designers, El-Black offers something for everyone. We believe in empowering individuals to express themselves through their clothing choices and celebrate diversity and personal style. Join our community of fashion enthusiasts and trendsetters as we redefine the fashion landscape, one stylish look at a time. Welcome to the world of El-Black, where fashion meets individuality, and style knows no bounds.",
-    link: "https://elblack-clothing-store.vercel.app/",
+    title: "Project Tracking Intro Page",
+    img: "/assets/gallery/desktop-preview (23).jpg",
+    desc: "Welcome to Project Tracking, the ultimate solution for all your project management needs. TrackPro helps teams stay organized, meet deadlines, and achieve their goals with ease. With features like task assignments, real-time updates, and collaborative tools, you can streamline your workflow and ensure every project is a success.",
+    link: "https://project-tracking-intro-component-master-eta.vercel.app/",
   },
   {
     id: 4,
-    title: "Fratun ",
-    img: "/assets/images/fratun.png",
-    desc: "Welcome to Fratun, the future of social interactions! Fratun revolutionizes the way you connect with the world, making it fast, fluid, and fun. It's not just another social media platform; it's a community designed for crypto lovers that rewards you for engaging. Dive into discussions, share your insights, and connect with like-minded individuals while earning rewards for your participation. Fratun is where social networking meets cryptocurrency, offering a unique and rewarding experience for users who are passionate about both. Join us in shaping the future of social interaction and be part of a community where engagement pays off. Welcome to Fratun – where connecting and earning go hand in hand.",
-    link: "https://fratun-client-side-qg3o2x750-yousef-el-black.vercel.app/",
+    title: "Protfolio Template (Special)",
+    img: "/assets/gallery/desktop-preview-(13).jpg",
+    desc: "Welcome to Our Portfolio, Here You can find Creativity, you can choose from group of colors website main color. a good timeline to show others your career easily. Full responsive with good looking for every client.",
+    link: "https://special-design-sandy.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Bondi Landing Page",
+    img: "/assets/gallery/desktop-preview-bondi.jpg",
+    desc: "Welcome to Bondi, the platform designed to ignite and measure your creativity. Bondi offers innovative tools and assessments to help you explore your creative potential and push the boundaries of your imagination. Whether you're an artist, designer, or simply curious about your creative strengths, Bondi provides personalized insights and inspiration.",
+    link: "https://bondi-beta.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Bookmark Landing Page",
+    img: "/assets/gallery/desktop-preview (1).jpg",
+    desc: "Welcome to Bookmark, your ultimate tool for organizing and managing your online bookmarks. With BookmarkIt, you can easily save, categorize, and access your favorite websites from any device. Our intuitive interface and powerful search features ensure that your links are always at your fingertips.",
+    link: "https://bookmark-landing-page-master-teal.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "EasyBank Landing Page",
+    img: "/assets/gallery/desktop-preview (4).jpg",
+    desc: "Welcome to Bookmark, your ultimate tool for organizing and managing your online bookmarks. With BookmarkIt, you can easily save, categorize, and access your favorite websites from any device. Our intuitive interface and powerful search features ensure that your links are always at your fingertips.",
+    link: "https://bookmark-landing-page-master-teal.vercel.app/",
   },
 ];
 
@@ -54,12 +82,16 @@ const Single = ({ item }: any) => {
     <section>
       <div className="wrapper">
         <div className="imageContainer" ref={ref}>
-          <img src={item.img} alt={item.title + " Image"} />
+          <img
+            src={item.img}
+            alt={item.title + " Image"}
+            style={{ objectPosition: "center" }}
+          />
         </div>
         <motion.div className="textContainer" style={{ y: yText }}>
           <h2>{item.title}</h2>
           <p>{item.desc}</p>
-          <a href={item.link ? item.link : "#"}>
+          <a href={item.link ? item.link : "#"} target="_blanc">
             <button>See Demo</button>
           </a>
         </motion.div>
