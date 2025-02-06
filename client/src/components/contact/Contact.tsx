@@ -33,7 +33,7 @@ const Contact = () => {
         "service_b4j655r",
         "template_wim4331",
         formRef.current,
-        "V2CtkP6ndI4jtM64I"
+        "ZjjBBSmPt_qFcvLYF"
       )
       .then(() => {
         alert("Message has been Sent!");

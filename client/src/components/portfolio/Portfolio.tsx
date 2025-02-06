@@ -42,7 +42,7 @@ const items = [
     id: 5,
     title: "Bondi Landing Page",
     img: "/assets/gallery/desktop-preview-bondi.jpg",
-    desc: "Welcome to Bondi, the platform designed to ignite and measure your creativity. Bondi offers innovative tools and assessments to help you explore your creative potential and push the boundaries of your imagination. Whether you're an artist, designer, or simply curious about your creative strengths, Bondi provides personalized insights and inspiration.",
+    desc: "Welcome to Bondi 2020, the platform designed to ignite and measure your creativity. Bondi offers innovative tools and assessments to help you explore your creative potential and push the boundaries of your imagination. Whether you're an artist, designer, or simply curious about your creative strengths, Bondi provides personalized insights and inspiration.",
     link: "https://bondi-beta.vercel.app/",
   },
   {
@@ -57,7 +57,21 @@ const items = [
     title: "EasyBank Landing Page",
     img: "/assets/gallery/desktop-preview (4).jpg",
     desc: "Welcome to Bookmark, your ultimate tool for organizing and managing your online bookmarks. With BookmarkIt, you can easily save, categorize, and access your favorite websites from any device. Our intuitive interface and powerful search features ensure that your links are always at your fingertips.",
-    link: "https://bookmark-landing-page-master-teal.vercel.app/",
+    link: "https://easybank-landing-page-master-murex.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "DarkGen Web Agency",
+    img: "/assets/gallery/DarkgenWebDesignPreview.png",
+    desc: "Welcome to DarkGen Web Agency – The Real Estate Web Design Experts You've found the right place if you're looking for a professional, high-quality real estate website that perfectly meets your needs. At DarkGen Web Agency, we specialize in creating websites exclusively for the real estate industry. Our deep understanding of the real estate market ensures that your website will not only look great but also work flawlessly to help you attract clients, showcase properties, and close deals.",
+    link: "https://dark-gen-web.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "SunnySide Landing Page",
+    img: "/assets/gallery/desktop-preview (14).jpg",
+    desc: "SunnySide - Transform your brand We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+    link: "https://sunnyside-agency-landing-page-main-swart-one.vercel.app/",
   },
 ];
 
